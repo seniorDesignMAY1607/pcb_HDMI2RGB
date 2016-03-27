@@ -85,6 +85,12 @@ LIBS:xtal
 LIBS:tpd4S010
 LIBS:QTH-030-02-L-DA
 LIBS:rpack
+LIBS:pwr
+LIBS:embedded-microcontrollers
+LIBS:msp430f2274
+LIBS:logic
+LIBS:connectors
+LIBS:tps62260
 LIBS:HDMI2RGB-cache
 EELAYER 25 0
 EELAYER END

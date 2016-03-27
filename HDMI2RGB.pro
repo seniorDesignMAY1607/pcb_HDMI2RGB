@@ -1,4 +1,4 @@
-update=Sun 27 Mar 2016 03:45:26 AM CDT
+update=Sun 27 Mar 2016 04:00:14 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -115,3 +115,10 @@ LibName83=kicad_libs/xtal
 LibName84=kicad_libs/tpd4S010
 LibName85=kicad_libs/QTH-030-02-L-DA
 LibName86=kicad_libs/rpack
+LibName87=kicad_libs/pwr
+LibName88=kicad_libs/embedded-microcontrollers
+LibName89=kicad_libs/msp430f2274
+LibName90=kicad_libs/switch
+LibName91=kicad_libs/logic
+LibName92=kicad_libs/connectors
+LibName93=kicad_libs/tps62260
