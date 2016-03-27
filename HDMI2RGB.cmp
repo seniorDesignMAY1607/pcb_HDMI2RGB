@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Sun 27 Mar 2016 03:15:17 AM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Sun 27 Mar 2016 03:57:08 AM CDT
 
 BeginCmp
 TimeStamp = /56F781D7/56F85A56;
@@ -319,21 +319,21 @@ BeginCmp
 TimeStamp = /56F781D7/56F85983;
 Reference = RP1;
 ValeurCmp = R_PACK8;
-IdModule  = ;
+IdModule  = rpack:RPACK-8_0616;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F781D7/56F8598A;
 Reference = RP2;
 ValeurCmp = R_PACK8;
-IdModule  = ;
+IdModule  = rpack:RPACK-8_0616;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F781D7/56F85991;
 Reference = RP3;
 ValeurCmp = R_PACK8;
-IdModule  = ;
+IdModule  = rpack:RPACK-8_0616;
 EndCmp
 
 BeginCmp

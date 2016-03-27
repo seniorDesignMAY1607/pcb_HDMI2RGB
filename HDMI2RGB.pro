@@ -1,4 +1,4 @@
-update=Sun 27 Mar 2016 01:42:19 AM CDT
+update=Sun 27 Mar 2016 03:45:26 AM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -114,3 +114,4 @@ LibName82=kicad_libs/tps2061
 LibName83=kicad_libs/xtal
 LibName84=kicad_libs/tpd4S010
 LibName85=kicad_libs/QTH-030-02-L-DA
+LibName86=kicad_libs/rpack
