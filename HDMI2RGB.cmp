@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Sun 27 Mar 2016 05:28:05 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Sun 27 Mar 2016 06:47:15 PM CDT
 
 BeginCmp
 TimeStamp = /56F781D7/56F85A56;
@@ -669,14 +669,14 @@ BeginCmp
 TimeStamp = /56F781D7/56F92843;
 Reference = U1;
 ValeurCmp = TPD4S010DQAR;
-IdModule  = ;
+IdModule  = misc:10-USON;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F781D7/56F921E3;
 Reference = U2;
 ValeurCmp = TPD4S010DQAR;
-IdModule  = ;
+IdModule  = misc:10-USON;
 EndCmp
 
 BeginCmp
