@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Wed 30 Mar 2016 02:03:07 AM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Wed 30 Mar 2016 11:55:28 AM CDT
 
 BeginCmp
 TimeStamp = /56F781D7/56F85A56;
@@ -697,7 +697,7 @@ BeginCmp
 TimeStamp = /56F781D7/56F85970;
 Reference = U5;
 ValeurCmp = ADV7611;
-IdModule  = ADV7611:LQFP-64_TH_10x10mm_Pitch0.5mm;
+IdModule  = misc:LQFP-64_TH_10x10mm_Pitch0.5mm;
 EndCmp
 
 BeginCmp
