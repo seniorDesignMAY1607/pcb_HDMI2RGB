@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Sun 27 Mar 2016 06:47:15 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Wed 30 Mar 2016 02:03:07 AM CDT
 
 BeginCmp
 TimeStamp = /56F781D7/56F85A56;
@@ -389,7 +389,7 @@ BeginCmp
 TimeStamp = /56F78688/56F92A1B;
 Reference = J3;
 ValeurCmp = RAPC712x;
-IdModule  = ;
+IdModule  = misc:RAPC712;
 EndCmp
 
 BeginCmp
@@ -662,7 +662,7 @@ BeginCmp
 TimeStamp = /56F83E00/56F8A95B;
 Reference = SW1;
 ValeurCmp = 2M1-SP1-T2-B4-M6RE;
-IdModule  = ;
+IdModule  = misc:2M1-SP1-T2-B4-M6RE;
 EndCmp
 
 BeginCmp
@@ -683,14 +683,14 @@ BeginCmp
 TimeStamp = /56F781D7/56F86EAD;
 Reference = U3;
 ValeurCmp = ABM3B-24.000MHZ-B2-T;
-IdModule  = ;
+IdModule  = SMD_Packages:XTAL_ABRACON;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F781D7/56F85C5D;
 Reference = U4;
 ValeurCmp = TPS2061;
-IdModule  = ;
+IdModule  = TO_SOT_Packages_SMD:SOT-23-5;
 EndCmp
 
 BeginCmp
@@ -704,42 +704,42 @@ BeginCmp
 TimeStamp = /56F83E00/56F86E4D;
 Reference = U6;
 ValeurCmp = MSP430F2274TRHAR;
-IdModule  = ;
+IdModule  = Housings_DFN_QFN:QFN-40-1EP_6x6mm_Pitch0.5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F78685/56F8F951;
 Reference = U7;
 ValeurCmp = SN74AUP1G06DCKR;
-IdModule  = ;
+IdModule  = TO_SOT_Packages_SMD:SC-70-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F78685/56F8F9B4;
 Reference = U8;
 ValeurCmp = SN74AUP1G07DCKR;
-IdModule  = ;
+IdModule  = TO_SOT_Packages_SMD:SC-70-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F78685/56F8F977;
 Reference = U9;
 ValeurCmp = SN74AUP1G06DCKR;
-IdModule  = ;
+IdModule  = TO_SOT_Packages_SMD:SC-70-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F78688/56F93310;
 Reference = U10;
 ValeurCmp = TPS62260;
-IdModule  = ;
+IdModule  = misc:WSON-6;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F78688/56F948B3;
 Reference = U11;
 ValeurCmp = TPS62260;
-IdModule  = ;
+IdModule  = misc:WSON-6;
 EndCmp
 
 EndListe
