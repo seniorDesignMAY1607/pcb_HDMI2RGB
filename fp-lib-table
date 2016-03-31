@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name Chicken)(type Legacy)(uri /home/birdman/Documents/kicad_libraries/kicad_libs/chicken_1_4.mod)(options "")(descr ""))
 )

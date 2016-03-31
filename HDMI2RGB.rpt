@@ -1,0 +1,166 @@
+** Drc report for /home/birdman/Documents/Classes_S_16/senior_design/pcb_HDMI2RGB/HDMI2RGB.kicad_pcb **
+** Created on 2016-03-31 15:54:43 **
+
+** Found 79 DRC errors **
+ErrType(28): Too small via size
+    @ (2.6708 in,4.3296 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.4124 in,3.9508 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.2106 in,3.9638 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.2050 in,2.5750 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.2800 in,2.5750 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.0454 in,4.7762 in): Blind/Buried Via 0.0230 in, net[GND] (3) on layers F.Cu/In1.Cu
+ErrType(28): Too small via size
+    @ (2.2080 in,4.6520 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.2674 in,4.6520 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.1486 in,4.6520 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.3854 in,4.6520 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.3260 in,4.6508 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.5800 in,3.1200 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.1470 in,3.4920 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.5681 in,3.9771 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.5626 in,4.3074 in): Blind/Buried Via 0.0220 in, net[GND] (3) on layers F.Cu/In1.Cu
+ErrType(28): Too small via size
+    @ (3.4978 in,4.6450 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.6480 in,3.4823 in): Via 0.0220 in net [GND] (3) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.1097 in,4.7724 in): Via 0.0230 in net [/HDMI_INPUT/HDMI_SCL] (12) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.0792 in,4.7740 in): Via 0.0230 in net [/HDMI_INPUT/HDMI_SDA] (13) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.0135 in,4.7741 in): Via 0.0230 in net [/HDMI_INPUT/HDMI_HPA] (15) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.4571 in,4.3864 in): Via 0.0230 in net [/HDMI_INPUT/ADV_DVDDIO] (27) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.4047 in,4.1345 in): Via 0.0230 in net [/HDMI_INPUT/ADV_DVDDIO] (27) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.2079 in,4.1345 in): Via 0.0230 in net [/HDMI_INPUT/ADV_DVDDIO] (27) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.4593 in,4.3325 in): Via 0.0230 in net [/HDMI_INPUT/ADV_DVDD] (28) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.2866 in,4.1345 in): Via 0.0230 in net [/HDMI_INPUT/ADV_DVDD] (28) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.1389 in,4.0473 in): Via 0.0230 in net [VSYNC_WE] (46) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.6146 in,4.5976 in): Via 0.0220 in net [VSYNC_WE] (46) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.3590 in,3.8120 in): Via 0.0220 in net [HDMI_INT1] (53) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.9572 in,3.6283 in): Via 0.0220 in net [HDMI_INT1] (53) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.7634 in,4.0972 in): Via 0.0220 in net [/HDMI_INPUT/ADV_VDD3V3] (60) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (1.9300 in,3.9700 in): Via 0.0220 in net [/HDMI_INPUT/ADV_VDD1V8] (61) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.4650 in,2.8350 in): Via 0.0220 in net [/HDMI_INPUT/ADV_VDD1V8] (61) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.8970 in,4.1901 in): Via 0.0220 in net [+3V3] (75) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.8560 in,4.0520 in): Via 0.0220 in net [+3V3] (75) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.8451 in,3.6911 in): Via 0.0220 in net [+3V3] (75) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.6080 in,4.1240 in): Blind/Buried Via 0.0220 in, net[+3V3] (75) on layers F.Cu/In2.Cu
+ErrType(28): Too small via size
+    @ (3.2065 in,3.2253 in): Via 0.0220 in net [+3V3] (75) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.8100 in,2.9160 in): Blind/Buried Via 0.0220 in, net[+1V8] (77) on layers F.Cu/In2.Cu
+ErrType(28): Too small via size
+    @ (2.2696 in,3.9366 in): Via 0.0230 in net [/CONNECTOR/PDATA1] (78) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.5304 in,4.0239 in): Via 0.0230 in net [/CONNECTOR/PDATA1] (78) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.2306 in,3.9376 in): Via 0.0230 in net [/CONNECTOR/PDATA0] (85) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.2986 in,3.9366 in): Via 0.0230 in net [/CONNECTOR/PDATA2] (87) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.3292 in,3.9380 in): Via 0.0230 in net [/CONNECTOR/PDATA4] (89) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.3633 in,3.9385 in): Via 0.0230 in net [/CONNECTOR/PDATA6] (91) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.6588 in,4.2167 in): Via 0.0230 in net [/CONNECTOR/PDATA11] (95) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.6931 in,4.2679 in): Via 0.0230 in net [/CONNECTOR/PDATA13] (96) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.6580 in,4.2930 in): Via 0.0230 in net [/CONNECTOR/PDATA15] (97) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.6700 in,4.3834 in): Via 0.0230 in net [/CONNECTOR/PDATA17] (98) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.6704 in,4.4244 in): Via 0.0230 in net [/CONNECTOR/PDATA19] (99) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.6714 in,4.4654 in): Via 0.0230 in net [/CONNECTOR/PDATA21] (100) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.6726 in,4.5076 in): Via 0.0230 in net [/CONNECTOR/PDATA23] (101) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.5440 in,4.3123 in): Via 0.0230 in net [PCLK] (102) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.0031 in,4.3756 in): Via 0.0230 in net [PCLK] (102) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.0787 in,3.4913 in): Via 0.0220 in net [/MSP430/MSP_VDD3V3] (103) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.7590 in,3.5370 in): Via 0.0220 in net [/MSP430/MSP_VDD3V3] (103) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.1280 in,3.3040 in): Via 0.0220 in net [/MSP430/MSP_VDD3V3] (103) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.0380 in,3.6800 in): Via 0.0220 in net [/MSP430/MSP_VDD3V3] (103) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.8340 in,3.1900 in): Blind/Buried Via 0.0220 in, net[/MSP430/MSP_VDD3V3] (103) on layers F.Cu/In2.Cu
+ErrType(28): Too small via size
+    @ (3.0900 in,3.2040 in): Blind/Buried Via 0.0220 in, net[/MSP430/MSP_VDD3V3] (103) on layers F.Cu/In2.Cu
+ErrType(28): Too small via size
+    @ (3.4787 in,3.1267 in): Via 0.0220 in net [/MSP430/MSP_VDD3V3] (103) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.9888 in,2.6334 in): Via 0.0220 in net [SYSPWR] (105) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.7450 in,2.6500 in): Via 0.0220 in net [SYSPWR] (105) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.2883 in,2.6840 in): Via 0.0220 in net [SYSPWR] (105) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.1500 in,2.6500 in): Via 0.0220 in net [SYSPWR] (105) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.3610 in,4.0440 in): Blind/Buried Via 0.0220 in, net[SYSPWR] (105) on layers F.Cu/In2.Cu
+ErrType(28): Too small via size
+    @ (3.1021 in,3.5800 in): Via 0.0220 in net [HOST_IRQ] (112) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.3660 in,4.2620 in): Via 0.0220 in net [HOST_IRQ] (112) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.9900 in,3.5742 in): Via 0.0220 in net [HOST_IRQ] (112) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.7950 in,4.8985 in): Via 0.0220 in net [HOST_IRQ] (112) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.7484 in,4.2654 in): Via 0.0220 in net [PROJ_ON] (113) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.7015 in,4.2625 in): Via 0.0220 in net [PROJ_ON] (113) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.3398 in,4.1854 in): Via 0.0220 in net [SPI0_MISO] (117) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.3016 in,4.1839 in): Via 0.0220 in net [SPI0_MOSI] (118) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.2705 in,4.1838 in): Via 0.0220 in net [SPI0_CSZ0] (119) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.6220 in,4.6500 in): Via 0.0220 in net [/CONNECTOR/RESETZ] (120) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (3.8060 in,4.7020 in): Via 0.0220 in net [/CONNECTOR/RESETZ] (120) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.8240 in,3.5800 in): Via 0.0220 in net [RESET] (132) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.3080 in,3.8310 in): Via 0.0220 in net [RESET_ADV7611] (136) on layers F.Cu/B.Cu
+ErrType(28): Too small via size
+    @ (2.9097 in,3.6199 in): Via 0.0220 in net [RESET_ADV7611] (136) on layers F.Cu/B.Cu
+
+** Found 0 unconnected pads **
+
+** End of Report **
