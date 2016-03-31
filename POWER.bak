@@ -686,4 +686,6 @@ Wire Wire Line
 	9400 4600 9400 4450
 Wire Wire Line
 	2300 2900 2300 2700
+Text Notes 4150 1950 0    500  ~ 0
+POWER
 $EndSCHEMATC

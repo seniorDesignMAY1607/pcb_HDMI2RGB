@@ -241,8 +241,6 @@ Text GLabel 10550 5250 2    60   Input ~ 0
 HOST_IRQ
 Text Label 10400 5100 0    60   ~ 0
 HOST_IRQ
-Text Notes 10850 4550 0    100  ~ 0
-TODO: LEDS!!!\n
 Text GLabel 5200 5100 0    60   Input ~ 0
 PROJ_ON
 $Comp
@@ -878,4 +876,6 @@ Wire Wire Line
 	1700 3950 1800 3950
 Wire Wire Line
 	1800 3950 1800 4000
+Text Notes 4200 1750 0    500  ~ 0
+DLP Interface Connector
 $EndSCHEMATC
