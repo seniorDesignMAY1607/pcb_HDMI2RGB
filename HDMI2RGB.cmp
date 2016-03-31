@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Wed 30 Mar 2016 11:55:28 AM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5609)-product   date = Wed 30 Mar 2016 11:30:19 PM CDT
 
 BeginCmp
 TimeStamp = /56F781D7/56F85A56;
@@ -316,6 +316,20 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /56F83E00/56FCA372;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F83E00/56FCA7F0;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /56F781D7/56F85A98;
 Reference = FB1;
 ValeurCmp = FILTER;
@@ -411,6 +425,20 @@ TimeStamp = /56F83E00/56F84B66;
 Reference = P1;
 ValeurCmp = CONN_02X07;
 IdModule  = Connect:IDC_Header_Straight_14pins;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F78685/56FD0D03;
+Reference = P2;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F83E00/56FD282F;
+Reference = P3;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
@@ -624,6 +652,13 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /56F83E00/56FCA366;
+Reference = R31;
+ValeurCmp = 270;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /56F78688/56F9351A;
 Reference = R32;
 ValeurCmp = 300k;
@@ -635,6 +670,13 @@ TimeStamp = /56F78688/56F948D1;
 Reference = R33;
 ValeurCmp = 680k;
 IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F83E00/56FCA7E4;
+Reference = R34;
+ValeurCmp = 270;
+IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
@@ -740,6 +782,20 @@ TimeStamp = /56F78688/56F948B3;
 Reference = U11;
 ValeurCmp = TPS62260;
 IdModule  = misc:WSON-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F83E00/56FCA34D;
+Reference = U12;
+ValeurCmp = SN74AUP1G06DCKR;
+IdModule  = TO_SOT_Packages_SMD:SC-70-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F83E00/56FCA7CB;
+Reference = U13;
+ValeurCmp = SN74AUP1G06DCKR;
+IdModule  = TO_SOT_Packages_SMD:SC-70-5;
 EndCmp
 
 EndListe
