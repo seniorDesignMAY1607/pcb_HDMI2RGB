@@ -1,0 +1,2871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/birdman/Documents/Classes_S_16/senior_design/pcb_HDMI2RGB/HDMI2RGB.sch</source>
+    <date>Thu 31 Mar 2016 05:57:55 PM CDT</date>
+    <tool>Eeschema (2015-04-17 BZR 5609)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PROJECT HIEARCHY</title>
+        <company>IOWA STATE UNIVERSITY - SENIOR DESIGN MAY1607</company>
+        <rev>1.1</rev>
+        <date>Sat 26 Mar 2016</date>
+        <source>HDMI2RGB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/HDMI_INPUT/" tstamps="/56F781D7/">
+      <title_block>
+        <title>HDMI INPUT - ADV7611</title>
+        <company>IOWA STATE UNIVERSITY - SENIOR DESIGN MAY1607</company>
+        <rev>1.1</rev>
+        <date>Sat 26 Mar 2016</date>
+        <source>HDMI_INPUT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/CONNECTOR/" tstamps="/56F78685/">
+      <title_block>
+        <title>DLP CONNECTION - TO DLP3010 EVM</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>Sun 27 Mar 2016</date>
+        <source>CONNECTOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/POWER/" tstamps="/56F78688/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>POWER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/MSP430/" tstamps="/56F83E00/">
+      <title_block>
+        <title>MSP430F2274 - PERIPHERAL CONNECTIONS</title>
+        <company>IOWA STATE UNIVERSITY - SENIOR DESIGN MAY1607</company>
+        <rev>1.1</rev>
+        <date>Sat 26 Mar 2016</date>
+        <source>MSP430.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>HDMI_A</value>
+      <footprint>hdmi:FCI_10029449-11[13]RLF</footprint>
+      <libsource lib="hdmi" part="HDMI_A"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F8594F</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ADV7611</value>
+      <footprint>misc:LQFP-64_TH_10x10mm_Pitch0.5mm</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="ADV7611" part="ADV7611"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85970</tstamp>
+    </comp>
+    <comp ref="RP1">
+      <value>R_PACK8</value>
+      <footprint>rpack:RPACK-8_0616</footprint>
+      <libsource lib="device" part="R_PACK8"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85983</tstamp>
+    </comp>
+    <comp ref="RP2">
+      <value>R_PACK8</value>
+      <footprint>rpack:RPACK-8_0616</footprint>
+      <libsource lib="device" part="R_PACK8"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F8598A</tstamp>
+    </comp>
+    <comp ref="RP3">
+      <value>R_PACK8</value>
+      <footprint>rpack:RPACK-8_0616</footprint>
+      <libsource lib="device" part="R_PACK8"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85991</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85A56</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85A61</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85A6C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85A77</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85A82</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85A8D</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>FILTER</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">BLM18AG601SN1D</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Murata-Electronics/BLM18AG601SN1D/?qs=eh6oC%2F9l24oGGaJFkAJJAA%3D%3D</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85A98</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>0.0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW06030000Z0EA</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85AA3</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>FILTER</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">BLM18AG601SN1D</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Murata-Electronics/BLM18AG601SN1D/?qs=eh6oC%2F9l24oGGaJFkAJJAA%3D%3D</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85AD3</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85AE1</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85AEC</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85AF7</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B02</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>FILTER</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">BLM18AG601SN1D</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Murata-Electronics/BLM18AG601SN1D/?qs=eh6oC%2F9l24oGGaJFkAJJAA%3D%3D</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B0D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B31</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B3C</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B47</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B52</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B5D</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B68</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B73</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B7E</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>FILTER</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">BLM18AG601SN1D</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Murata-Electronics/BLM18AG601SN1D/?qs=eh6oC%2F9l24oGGaJFkAJJAA%3D%3D</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85B89</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85BBD</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85BC8</tstamp>
+    </comp>
+    <comp ref="FB5">
+      <value>FILTER</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">BLM18AG601SN1D</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Murata-Electronics/BLM18AG601SN1D/?qs=eh6oC%2F9l24oGGaJFkAJJAA%3D%3D</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85BD3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85BFC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85C07</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85C12</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85C1D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85C28</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">C0402C103K5RACTU</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85C33</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPS2061</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Link">http://www.mouser.com/ProductDetail/Texas-Instruments/TPS2061CDBVT/?qs=sGAEpiMZZMuCmTIBzycWfA%2fkltuuzBRGGymV4N3jSG0%3d</field>
+        <field name="Part #">TPS2061CDBVT</field>
+      </fields>
+      <libsource lib="tps2061" part="TPS2061"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85C5D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0.0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW06030000Z0EA</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85C7B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>33</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW040233R0FKED</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW040233R0FKED/?qs=sGAEpiMZZMtlubZbdhIBIKSDlQLNiDlpH1ENKGvFlik%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85C8E</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>33</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW040233R0FKED</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW040233R0FKED/?qs=sGAEpiMZZMtlubZbdhIBIKSDlQLNiDlpH1ENKGvFlik%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F85C99</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>33</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW040233R0FKED</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW040233R0FKED/?qs=sGAEpiMZZMtlubZbdhIBIKSDlQLNiDlpH1ENKGvFlik%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F864FA</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ABM3B-24.000MHZ-B2-T</value>
+      <footprint>SMD_Packages:XTAL_ABRACON</footprint>
+      <fields>
+        <field name="Part #">ABM3B-24.000MHZ-B2-T</field>
+        <field name="Cost">1.14</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/ABRACON/ABM3B-24000MHZ-B2-T/?qs=%2fha2pyFadujHbHUg0eAxt2ECUM0gZjtpLMPVeIFuZAR%2f%2fwouGNP4nbl%252bzqmUJrAg</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="xtal" part="ABM3B-24.000MHZ-B2-T"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F86EAD</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>18pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">06035A180JAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/06035A180JAT2A/?qs=%2fha2pyFaduh%252b3opPj3VNtLJOwVhx0%2fF98s48sp%252bccL8uT0Sk3PR%252bcA%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F87DD8</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>18pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">06035A180JAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/06035A180JAT2A/?qs=%2fha2pyFaduh%252b3opPj3VNtLJOwVhx0%2fF98s48sp%252bccL8uT0Sk3PR%252bcA%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F885EA</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F890FF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F8A3C4</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F8A5FE</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F8A688</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>0.0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW06030000Z0EA</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F8ACED</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPD4S010DQAR</value>
+      <footprint>misc:10-USON</footprint>
+      <libsource lib="tpd4S010" part="TPD4S010DQAR"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F921E3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TPD4S010DQAR</value>
+      <footprint>misc:10-USON</footprint>
+      <libsource lib="tpd4S010" part="TPD4S010DQAR"/>
+      <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
+      <tstamp>56F92843</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>QTH-030-02-L-DA</value>
+      <footprint>QTH_030_02:QTH-030-02-L-D-A</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <fields>
+        <field name="Cost">9.88</field>
+        <field name="Supplier">Digikey</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/samtec-inc/QTH-030-02-L-D-A/SAM8186-ND/1106530</field>
+        <field name="Part #">QTH-030-L-D-A</field>
+      </fields>
+      <libsource lib="QTH-030-02-L-DA" part="QTH-030-02-L-DA"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F986F9</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>SN74AUP1G06DCKR</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-5</footprint>
+      <fields>
+        <field name="Part #">SN74AUP1G06DCKR</field>
+      </fields>
+      <libsource lib="logic" part="SN74AUP1G06DCKR"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F8F951</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>SN74AUP1G06DCKR</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-5</footprint>
+      <fields>
+        <field name="Part #">SN74AUP1G06DCKR</field>
+      </fields>
+      <libsource lib="logic" part="SN74AUP1G06DCKR"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F8F977</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>SN74AUP1G07DCKR</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-5</footprint>
+      <fields>
+        <field name="Part #">SN74AUP1G07DCKR</field>
+      </fields>
+      <libsource lib="logic" part="SN74AUP1G07DCKR"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F8F9B4</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>270</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW0402270RFKED</field>
+        <field name="Cost">.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0402270RFKED/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GuhzzEOq29HM%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F9032F</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>270</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW0402270RFKED</field>
+        <field name="Cost">.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0402270RFKED/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GuhzzEOq29HM%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F90400</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>270</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW0402270RFKED</field>
+        <field name="Cost">.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0402270RFKED/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GuhzzEOq29HM%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F90446</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">LTST-C190KGKT</field>
+        <field name="Cost">0.28</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Lite-On/LTST-C190KGKT/?qs=%2fha2pyFaduiY29h8to%252bb%2ff81Q8%2f7oLlEih%2fPGVqv870fp0kdSE6Z%252bg%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F90626</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">LTST-C190KGKT</field>
+        <field name="Cost">0.28</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Lite-On/LTST-C190KGKT/?qs=%2fha2pyFaduiY29h8to%252bb%2ff81Q8%2f7oLlEih%2fPGVqv870fp0kdSE6Z%252bg%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F9075F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">LTST-C190KGKT</field>
+        <field name="Cost">0.28</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Lite-On/LTST-C190KGKT/?qs=%2fha2pyFaduiY29h8to%252bb%2ff81Q8%2f7oLlEih%2fPGVqv870fp0kdSE6Z%252bg%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F907B7</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F913B7</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F913E6</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56F91444</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/CONNECTOR/" tstamps="/56F78685/"/>
+      <tstamp>56FD0D03</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>RAPC712x</value>
+      <footprint>misc:RAPC712</footprint>
+      <fields>
+        <field name="Part #">RAPC712X</field>
+      </fields>
+      <libsource lib="connectors" part="RAPC712x"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F92A1B</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part #">CRCW0805200RFKEA</field>
+        <field name="Cost">0.10</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805200RFKEA/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G21oUiwB60%2fs%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F92A4F</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part #">C0805C106K4PACTU</field>
+        <field name="Cost">0.29</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Kemet/C0805C106K4PACTU/?qs=sGAEpiMZZMs0AnBnWHyRQFPZAvo%252bkkSHtv%252blWN%2fhyQc%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F92AEE</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part #">C0805C106K4PACTU</field>
+        <field name="Cost">0.29</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Kemet/C0805C106K4PACTU/?qs=sGAEpiMZZMs0AnBnWHyRQFPZAvo%252bkkSHtv%252blWN%2fhyQc%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F92BC1</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>270</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part #">CRCW0402270RFKED</field>
+        <field name="Cost">.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0402270RFKED/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GuhzzEOq29HM%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F92F04</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">LTST-C190KGKT</field>
+        <field name="Cost">0.28</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Lite-On/LTST-C190KGKT/?qs=%2fha2pyFaduiY29h8to%252bb%2ff81Q8%2f7oLlEih%2fPGVqv870fp0kdSE6Z%252bg%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F92F10</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>TPS62260</value>
+      <footprint>misc:WSON-6</footprint>
+      <fields>
+        <field name="Part #">TPS62260DRVT</field>
+        <field name="Cost">1.80</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Texas-Instruments/TPS62260DRVT/?qs=sGAEpiMZZMv2US1BCAiByzAvHxVUKNX4</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="tps62260" part="TPS62260"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F93310</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part #">C0805C475K8PACTU</field>
+        <field name="Cost">0.28</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Kemet/C0805C475K8PACTU/?qs=sGAEpiMZZMs0AnBnWHyRQDHs3SeBlWSBNMCXxRDVnHA%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F9346A</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="Part #">LQM31PN2R2M00L</field>
+        <field name="Cost">0.38</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Murata/LQM31PN2R2M00L/?qs=%2fha2pyFaduiMAY8%252bYSLHdCfmqXbdJIMpbg4Xo7vVm6nJOASEGIu8Tg%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="passive" part="L"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F9348A</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>300k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part #">ERJ-2RKF3003X</field>
+        <field name="Cost">0.21</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Panasonic/ERJ-2RKF3003X/?qs=%2fha2pyFaduh3%2f2P02u3%2fqLEvsGcSMITMBo9WCVSuwQ1hn3%252bP4%252bgy7A%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F9351A</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>150k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part #">CRCW0402150KFKED</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0402150KFKED/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G9hjnBJFk8Z8%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F93552</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>TPS62260</value>
+      <footprint>misc:WSON-6</footprint>
+      <fields>
+        <field name="Part #">TPS62260DRVT</field>
+        <field name="Cost">1.80</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Texas-Instruments/TPS62260DRVT/?qs=sGAEpiMZZMv2US1BCAiByzAvHxVUKNX4</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="tps62260" part="TPS62260"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F948B3</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part #">C0805C475K8PACTU</field>
+        <field name="Cost">0.28</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Kemet/C0805C475K8PACTU/?qs=sGAEpiMZZMs0AnBnWHyRQDHs3SeBlWSBNMCXxRDVnHA%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F948BD</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="Part #">LQM31PN2R2M00L</field>
+        <field name="Cost">0.38</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Murata/LQM31PN2R2M00L/?qs=%2fha2pyFaduiMAY8%252bYSLHdCfmqXbdJIMpbg4Xo7vVm6nJOASEGIu8Tg%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="passive" part="L"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F948C7</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>680k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ684X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Panasonic/ERJ-2GEJ684X/?qs=%2fha2pyFadugSsZIl1foSWK0vliVC8cNJmFjwwre70dTNi8MX4Pu0zA%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F948D1</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>150k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part #">CRCW0402150KFKED</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0402150KFKED/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G9hjnBJFk8Z8%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F948DB</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part #">C0805C106K4PACTU</field>
+        <field name="Cost">0.29</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Kemet/C0805C106K4PACTU/?qs=sGAEpiMZZMs0AnBnWHyRQFPZAvo%252bkkSHtv%252blWN%2fhyQc%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F9553B</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part #">C0805C106K4PACTU</field>
+        <field name="Cost">0.29</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Kemet/C0805C106K4PACTU/?qs=sGAEpiMZZMs0AnBnWHyRQFPZAvo%252bkkSHtv%252blWN%2fhyQc%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/POWER/" tstamps="/56F78688/"/>
+      <tstamp>56F95619</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_02X07</value>
+      <footprint>Connect:IDC_Header_Straight_14pins</footprint>
+      <libsource lib="conn" part="CONN_02X07"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F84B66</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F84F40</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0.0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW06030000Z0EA</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F854D9</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0.0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW06030000Z0EA</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F8550B</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MSP430F2274TRHAR</value>
+      <footprint>Housings_DFN_QFN:QFN-40-1EP_6x6mm_Pitch0.5mm</footprint>
+      <libsource lib="msp430f2274" part="MSP430F2274TRHAR"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F86E4D</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F875CF</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F876B7</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F88712</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F88754</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F8878C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>0.0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW06030000Z0EA</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F888DB</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F89645</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F8978F</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F897DF</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F89821</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F89874</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>2M1-SP1-T2-B4-M6RE</value>
+      <footprint>misc:2M1-SP1-T2-B4-M6RE</footprint>
+      <fields>
+        <field name="Part #">2M1-SP1-T2-B4-M6RE</field>
+      </fields>
+      <libsource lib="switch" part="2M1-SP1-T2-B4-M6RE"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F8A95B</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F8AAFC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">ERJ-2GEJ472X</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025</field>
+        <field name="Supplier">Digikey</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F8AC96</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part #">0402YD104KAT2A</field>
+        <field name="Cost">0.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F8AEC8</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>HOLE1</value>
+      <footprint>Mounting_Holes:MountingHole_4.3mm_M4_Pad</footprint>
+      <libsource lib="hole" part="HOLE1"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F98079</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>HOLE1</value>
+      <footprint>Mounting_Holes:MountingHole_4.3mm_M4_Pad</footprint>
+      <libsource lib="hole" part="HOLE1"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F9810C</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>HOLE1</value>
+      <footprint>Mounting_Holes:MountingHole_4.3mm_M4_Pad</footprint>
+      <libsource lib="hole" part="HOLE1"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56F9815A</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>SN74AUP1G06DCKR</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-5</footprint>
+      <fields>
+        <field name="Part #">SN74AUP1G06DCKR</field>
+      </fields>
+      <libsource lib="logic" part="SN74AUP1G06DCKR"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56FCA34D</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>270</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW0402270RFKED</field>
+        <field name="Cost">.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0402270RFKED/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GuhzzEOq29HM%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56FCA366</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">LTST-C190KGKT</field>
+        <field name="Cost">0.28</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Lite-On/LTST-C190KGKT/?qs=%2fha2pyFaduiY29h8to%252bb%2ff81Q8%2f7oLlEih%2fPGVqv870fp0kdSE6Z%252bg%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56FCA372</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>SN74AUP1G06DCKR</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-5</footprint>
+      <fields>
+        <field name="Part #">SN74AUP1G06DCKR</field>
+      </fields>
+      <libsource lib="logic" part="SN74AUP1G06DCKR"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56FCA7CB</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>270</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Part #">CRCW0402270RFKED</field>
+        <field name="Cost">.1</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0402270RFKED/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GuhzzEOq29HM%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56FCA7E4</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part #">LTST-C190KGKT</field>
+        <field name="Cost">0.28</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Lite-On/LTST-C190KGKT/?qs=%2fha2pyFaduiY29h8to%252bb%2ff81Q8%2f7oLlEih%2fPGVqv870fp0kdSE6Z%252bg%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56FCA7F0</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
+      <tstamp>56FD282F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_PACK8">
+      <description>8 resistors Pack</description>
+      <fields>
+        <field name="Reference">RP</field>
+        <field name="Value">R_PACK8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="R8" type="passive"/>
+        <pin num="10" name="R7" type="passive"/>
+        <pin num="11" name="R6" type="passive"/>
+        <pin num="12" name="R5" type="passive"/>
+        <pin num="13" name="R4" type="passive"/>
+        <pin num="14" name="R3" type="passive"/>
+        <pin num="15" name="R2" type="passive"/>
+        <pin num="16" name="R1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X07">
+      <footprints>
+        <fp>Pin_Header_Straight_2X07</fp>
+        <fp>Pin_Header_Angled_2X07</fp>
+        <fp>Socket_Strip_Straight_2X07</fp>
+        <fp>Socket_Strip_Angled_2X07</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tps2061" part="TPS2061">
+      <description>Load switch</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2061</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Texas-Instruments/TPS2061CDBVT/?qs=sGAEpiMZZMuCmTIBzycWfA%2fkltuuzBRGGymV4N3jSG0%3d</field>
+        <field name="Part #">TPS2061CDBVT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="FLT" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="tpd4S010" part="TPD4S010DQAR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD4S010DQAR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1+" type="input"/>
+        <pin num="2" name="D1-" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="D2+" type="input"/>
+        <pin num="5" name="D2-" type="input"/>
+        <pin num="6" name="NC" type="input"/>
+        <pin num="7" name="NC" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="NC" type="input"/>
+        <pin num="10" name="NC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="xtal" part="ABM3B-24.000MHZ-B2-T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ABM3B-24.000MHZ-B2-T</field>
+        <field name="Part #">ABM3B-24.000MHZ-B2-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="QTH-030-02-L-DA" part="QTH-030-02-L-DA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">QTH-030-02-L-DA</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+        <field name="Cost">9.88</field>
+        <field name="Supplier">Digikey</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/samtec-inc/QTH-030-02-L-D-A/SAM8186-ND/1106530</field>
+        <field name="Part #">QTH-030-L-D-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="B2" type="input"/>
+        <pin num="5" name="A3" type="input"/>
+        <pin num="6" name="B3" type="input"/>
+        <pin num="7" name="A4" type="input"/>
+        <pin num="8" name="B4" type="input"/>
+        <pin num="9" name="A5" type="input"/>
+        <pin num="10" name="B5" type="input"/>
+        <pin num="11" name="A6" type="input"/>
+        <pin num="12" name="B6" type="input"/>
+        <pin num="13" name="A7" type="input"/>
+        <pin num="14" name="B7" type="input"/>
+        <pin num="15" name="A8" type="input"/>
+        <pin num="16" name="B8" type="input"/>
+        <pin num="17" name="A9" type="input"/>
+        <pin num="18" name="B9" type="input"/>
+        <pin num="19" name="A10" type="input"/>
+        <pin num="20" name="B10" type="input"/>
+        <pin num="21" name="A11" type="input"/>
+        <pin num="22" name="B11" type="input"/>
+        <pin num="23" name="A12" type="input"/>
+        <pin num="24" name="B12" type="input"/>
+        <pin num="25" name="A13" type="input"/>
+        <pin num="26" name="B13" type="input"/>
+        <pin num="27" name="A14" type="input"/>
+        <pin num="28" name="B14" type="input"/>
+        <pin num="29" name="A15" type="input"/>
+        <pin num="30" name="B15" type="input"/>
+        <pin num="31" name="A16" type="input"/>
+        <pin num="32" name="B16" type="input"/>
+        <pin num="33" name="A17" type="input"/>
+        <pin num="34" name="B17" type="input"/>
+        <pin num="35" name="A18" type="input"/>
+        <pin num="36" name="B18" type="input"/>
+        <pin num="37" name="A19" type="input"/>
+        <pin num="38" name="B19" type="input"/>
+        <pin num="39" name="A20" type="input"/>
+        <pin num="40" name="B20" type="input"/>
+        <pin num="41" name="A21" type="input"/>
+        <pin num="42" name="B21" type="input"/>
+        <pin num="43" name="A22" type="input"/>
+        <pin num="44" name="B22" type="input"/>
+        <pin num="45" name="A23" type="input"/>
+        <pin num="46" name="B23" type="input"/>
+        <pin num="47" name="A24" type="input"/>
+        <pin num="48" name="B24" type="input"/>
+        <pin num="49" name="A25" type="input"/>
+        <pin num="50" name="B25" type="input"/>
+        <pin num="51" name="A26" type="input"/>
+        <pin num="52" name="B26" type="input"/>
+        <pin num="53" name="A27" type="input"/>
+        <pin num="54" name="B27" type="input"/>
+        <pin num="55" name="A28" type="input"/>
+        <pin num="56" name="B28" type="input"/>
+        <pin num="57" name="A29" type="input"/>
+        <pin num="58" name="B29" type="input"/>
+        <pin num="59" name="A30" type="input"/>
+        <pin num="60" name="B30" type="input"/>
+        <pin num="61" name="GND" type="input"/>
+        <pin num="62" name="GND" type="input"/>
+        <pin num="63" name="GND" type="input"/>
+        <pin num="64" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="RAPC712x">
+      <description>Barrel Jack, Connector, Power Switchcraft</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RAPC712x</field>
+        <field name="Part #">RAPC712X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="hole" part="HOLE1">
+      <footprints>
+        <fp>*HOLE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">HOLE1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switch" part="2M1-SP1-T2-B4-M6RE">
+      <description>SPDT</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">2M1-SP1-T2-B4-M6RE</field>
+        <field name="Part #">2M1-SP1-T2-B4-M6RE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="M1" type="passive"/>
+        <pin num="5" name="M2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passive" part="L">
+      <footprints>
+        <fp>IPC_INDC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="logic" part="SN74AUP1G06DCKR">
+      <description>Single Buffer</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AUP1G06DCKR</field>
+        <field name="Part #">SN74AUP1G06DCKR</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="power_in"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="msp430f2274" part="MSP430F2274TRHAR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MSP430F2274TRHAR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DVSS" type="power_in"/>
+        <pin num="2" name="XOUT/P2.7" type="BiDi"/>
+        <pin num="3" name="XIN/P2.6" type="BiDi"/>
+        <pin num="4" name="DVSS" type="power_in"/>
+        <pin num="5" name="~RST~/NMI/SBWTDIO" type="input"/>
+        <pin num="6" name="P2.0/ACLK/A0/OA0I0" type="BiDi"/>
+        <pin num="7" name="P2.1/TAINCLK/SMCLK/A1/OA0O" type="BiDi"/>
+        <pin num="8" name="P2.2/TA0/A2/OA0I1" type="BiDi"/>
+        <pin num="9" name="P3.0/UCB0STE/UCA0CLK/A5" type="BiDi"/>
+        <pin num="10" name="P3.1/UCB0SIMO/UCB0SDA" type="BiDi"/>
+        <pin num="11" name="P3.2/UCB0SOMI/UCB0SCL" type="BiDi"/>
+        <pin num="12" name="P3.3/UCB0CLK/UCA0STE" type="BiDi"/>
+        <pin num="13" name="AVSS" type="power_in"/>
+        <pin num="14" name="AVCC" type="power_in"/>
+        <pin num="15" name="P4.0/TB0" type="BiDi"/>
+        <pin num="16" name="P4.1/TB1" type="BiDi"/>
+        <pin num="17" name="P4.2/TB2" type="BiDi"/>
+        <pin num="18" name="P4.3/TB0/A12/OA0O" type="BiDi"/>
+        <pin num="19" name="P4.4/TB1/A13/OA1O" type="BiDi"/>
+        <pin num="20" name="P4.5/TB2/A14/OA0I3" type="BiDi"/>
+        <pin num="21" name="P4.6/TBOUTH/A15/OA1I3" type="BiDi"/>
+        <pin num="22" name="P4.7/TBCLK" type="BiDi"/>
+        <pin num="23" name="P3.4/UCA0TXD/UCA0SIMO" type="BiDi"/>
+        <pin num="24" name="P3.5/UCA0RXD/UCA0SOMI" type="BiDi"/>
+        <pin num="25" name="P3.6/A6/OA0I2" type="BiDi"/>
+        <pin num="26" name="P3.7/A7/OA1I2" type="BiDi"/>
+        <pin num="27" name="P2.3/TA1/A3/VREF-/VeREF-/OA1I1/OA1O" type="BiDi"/>
+        <pin num="28" name="P2.4/TA2/A4/VREF+/VeREF+/OA1I0" type="BiDi"/>
+        <pin num="29" name="P1.0/TACLK/ADC10CLK" type="BiDi"/>
+        <pin num="30" name="P1.1/TA0" type="BiDi"/>
+        <pin num="31" name="P1.2/TA1" type="BiDi"/>
+        <pin num="32" name="P1.3/TA2" type="BiDi"/>
+        <pin num="33" name="P1.4/SMCLK/TCK" type="BiDi"/>
+        <pin num="34" name="P1.5/TA0/TMS" type="BiDi"/>
+        <pin num="35" name="P1.6/TA1/TDI/TCLK" type="BiDi"/>
+        <pin num="36" name="P1.7/TA2/TDO/TDI" type="BiDi"/>
+        <pin num="37" name="TEST/SBWTCK" type="input"/>
+        <pin num="38" name="DVCC" type="power_in"/>
+        <pin num="39" name="DVCC" type="power_in"/>
+        <pin num="40" name="P2.5/ROSC" type="BiDi"/>
+        <pin num="41" name="QFN_PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="logic" part="SN74AUP1G07DCKR">
+      <description>Single Buffer</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AUP1G07DCKR</field>
+        <field name="Part #">SN74AUP1G07DCKR</field>
+      </fields>
+      <pins>
+        <pin num="2" name="A" type="BiDi"/>
+        <pin num="3" name="~" type="power_in"/>
+        <pin num="4" name="Y" type="BiDi"/>
+        <pin num="5" name="+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="tps62260" part="TPS62260">
+      <description>Buck Regulator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS62260</field>
+        <field name="Part #">TPS62260DRVT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="power_out"/>
+        <pin num="2" name="MODE" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="PP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="hdmi" part="HDMI_A">
+      <footprints>
+        <fp>FCI_10029449-111RLF</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HDMI_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TMDS_DATA2_P" type="BiDi"/>
+        <pin num="2" name="TMDS_DATA2_SHLD" type="BiDi"/>
+        <pin num="3" name="TMDS_DATA2_N" type="BiDi"/>
+        <pin num="4" name="TMDS_DATA1_P" type="BiDi"/>
+        <pin num="5" name="TMDS_DATA1_SHLD" type="BiDi"/>
+        <pin num="6" name="TMDS_DATA1_N" type="BiDi"/>
+        <pin num="7" name="TMDS_DATA0_P" type="BiDi"/>
+        <pin num="8" name="TMDS_DATA0_SHLD" type="BiDi"/>
+        <pin num="9" name="TMDS_DATA0_N" type="BiDi"/>
+        <pin num="10" name="TMDS_CLOCK_P" type="BiDi"/>
+        <pin num="11" name="TMDS_CLOCK_SHLD" type="BiDi"/>
+        <pin num="12" name="TMDS_CLOCK_N" type="BiDi"/>
+        <pin num="13" name="RESERVED/CEC" type="BiDi"/>
+        <pin num="14" name="HEC_DATA_N" type="BiDi"/>
+        <pin num="15" name="DDC_SCL" type="BiDi"/>
+        <pin num="16" name="DDC_SDA" type="BiDi"/>
+        <pin num="17" name="DDC/CEC/HEC_GND" type="BiDi"/>
+        <pin num="18" name="+5V" type="BiDi"/>
+        <pin num="19" name="HP_DETECT/HEC_DATA_P" type="BiDi"/>
+        <pin num="SHLD" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADV7611" part="ADV7611">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADV7611</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HPA_A/INT2" type="input"/>
+        <pin num="2" name="CVDD" type="power_in"/>
+        <pin num="3" name="RXA_C-" type="input"/>
+        <pin num="4" name="RXA_C+" type="input"/>
+        <pin num="5" name="TVDD" type="power_in"/>
+        <pin num="6" name="RXA_0-" type="input"/>
+        <pin num="7" name="RXA_0+" type="input"/>
+        <pin num="8" name="TVDD" type="input"/>
+        <pin num="9" name="RXA_1-" type="input"/>
+        <pin num="10" name="RXA_1+" type="input"/>
+        <pin num="11" name="TVDD" type="input"/>
+        <pin num="12" name="RXA_2-" type="input"/>
+        <pin num="13" name="RXA_2+" type="input"/>
+        <pin num="14" name="CVDD" type="power_in"/>
+        <pin num="15" name="P23" type="input"/>
+        <pin num="16" name="P22" type="input"/>
+        <pin num="17" name="P21" type="input"/>
+        <pin num="18" name="P20" type="input"/>
+        <pin num="19" name="P19" type="input"/>
+        <pin num="20" name="P18" type="input"/>
+        <pin num="21" name="P17" type="input"/>
+        <pin num="22" name="P16" type="input"/>
+        <pin num="23" name="DVDDIO" type="power_in"/>
+        <pin num="24" name="DVDD" type="power_in"/>
+        <pin num="25" name="LLC" type="input"/>
+        <pin num="26" name="P15" type="input"/>
+        <pin num="27" name="P14" type="input"/>
+        <pin num="28" name="P13" type="input"/>
+        <pin num="29" name="P12" type="input"/>
+        <pin num="30" name="P11" type="input"/>
+        <pin num="31" name="P10" type="input"/>
+        <pin num="32" name="P9" type="input"/>
+        <pin num="33" name="P8" type="input"/>
+        <pin num="34" name="DVDDIO" type="power_in"/>
+        <pin num="35" name="P7" type="input"/>
+        <pin num="36" name="P6" type="input"/>
+        <pin num="37" name="P5" type="input"/>
+        <pin num="38" name="P4" type="input"/>
+        <pin num="39" name="P3" type="input"/>
+        <pin num="40" name="DVDD" type="power_in"/>
+        <pin num="41" name="P2" type="input"/>
+        <pin num="42" name="P1" type="input"/>
+        <pin num="43" name="P0" type="input"/>
+        <pin num="44" name="DVDDIO" type="power_in"/>
+        <pin num="45" name="DE" type="input"/>
+        <pin num="46" name="HS" type="input"/>
+        <pin num="47" name="VS/FIELD/ALSB" type="input"/>
+        <pin num="48" name="AP" type="input"/>
+        <pin num="49" name="SCLK/INT2" type="input"/>
+        <pin num="50" name="LRCLK" type="input"/>
+        <pin num="51" name="MCLK/INT2" type="input"/>
+        <pin num="52" name="DVDD" type="power_in"/>
+        <pin num="53" name="SCL" type="input"/>
+        <pin num="54" name="SDA" type="input"/>
+        <pin num="55" name="INT1" type="input"/>
+        <pin num="56" name="RESET" type="input"/>
+        <pin num="57" name="PVDD" type="power_in"/>
+        <pin num="58" name="XTALP" type="input"/>
+        <pin num="59" name="XTALN" type="input"/>
+        <pin num="60" name="DVDD" type="power_in"/>
+        <pin num="61" name="CEC" type="input"/>
+        <pin num="62" name="DDCA_SCL" type="input"/>
+        <pin num="63" name="DDCA_SDA" type="input"/>
+        <pin num="64" name="RXA_5V" type="input"/>
+        <pin num="65" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="xtal">
+      <uri>/home/birdman/Documents/kicad_libraries/kicad_libs/xtal.lib</uri>
+    </library>
+    <library logical="tpd4S010">
+      <uri>/home/birdman/Documents/kicad_libraries/kicad_libs/tpd4S010.lib</uri>
+    </library>
+    <library logical="QTH-030-02-L-DA">
+      <uri>/home/birdman/Documents/kicad_libraries/kicad_libs/QTH-030-02-L-DA.lib</uri>
+    </library>
+    <library logical="logic">
+      <uri>/home/birdman/Documents/kicad_libraries/kicad_libs/logic.lib</uri>
+    </library>
+    <library logical="tps2061">
+      <uri>/home/birdman/Documents/kicad_libraries/kicad_libs/tps2061.lib</uri>
+    </library>
+    <library logical="passive">
+      <uri>/home/birdman/Documents/kicad_libraries/library-kicad/passive.lib</uri>
+    </library>
+    <library logical="switch">
+      <uri>/home/birdman/Documents/kicad_libraries/library-kicad/switch.lib</uri>
+    </library>
+    <library logical="msp430f2274">
+      <uri>/home/birdman/Documents/kicad_libraries/kicad_libs/msp430f2274.lib</uri>
+    </library>
+    <library logical="connectors">
+      <uri>/home/birdman/Documents/kicad_libraries/kicad_libs/connectors.lib</uri>
+    </library>
+    <library logical="tps62260">
+      <uri>/home/birdman/Documents/kicad_libraries/kicad_libs/tps62260.lib</uri>
+    </library>
+    <library logical="hdmi">
+      <uri>/home/birdman/Documents/kicad_libraries/library-kicad/hdmi.lib</uri>
+    </library>
+    <library logical="ADV7611">
+      <uri>/home/birdman/Documents/kicad_libraries/kicad_libs/ADV7611.lib</uri>
+    </library>
+    <library logical="hole">
+      <uri>/home/birdman/Documents/kicad_libraries/library-kicad/hole.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R8-Pad1)">
+      <node ref="U5" pin="63"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="2" name="+1V8">
+      <node ref="J2" pin="48"/>
+      <node ref="C40" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="J2" pin="52"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="4" name="Net-(R9-Pad1)">
+      <node ref="U5" pin="62"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R10-Pad2)">
+      <node ref="U5" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C13-Pad1)">
+      <node ref="U5" pin="58"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="7" name="+3V3">
+      <node ref="J2" pin="50"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P2" pin="5"/>
+      <node ref="U8" pin="5"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U12" pin="5"/>
+      <node ref="U13" pin="5"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C5" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="J1" pin="17"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J1" pin="SHLD"/>
+      <node ref="U5" pin="65"/>
+      <node ref="P1" pin="9"/>
+      <node ref="U6" pin="41"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="C23" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="11"/>
+      <node ref="H2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U12" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U13" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U10" pin="7"/>
+      <node ref="U11" pin="7"/>
+      <node ref="U11" pin="6"/>
+      <node ref="C38" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="P2" pin="6"/>
+      <node ref="U6" pin="13"/>
+      <node ref="J2" pin="62"/>
+      <node ref="J2" pin="63"/>
+      <node ref="J2" pin="64"/>
+      <node ref="J2" pin="61"/>
+      <node ref="P3" pin="6"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="9" name="/HDMI_INPUT/HDMI_PWR">
+      <node ref="R2" pin="1"/>
+      <node ref="U5" pin="64"/>
+    </net>
+    <net code="10" name="Net-(C14-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="U5" pin="59"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="11" name="RESET_ADV7611">
+      <node ref="R7" pin="2"/>
+      <node ref="U5" pin="56"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="12" name="/HDMI_INPUT/ADV_PVDD">
+      <node ref="U5" pin="57"/>
+      <node ref="C17" pin="1"/>
+      <node ref="FB5" pin="2"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="13" name="/HDMI_INPUT/ADV_TVDD">
+      <node ref="C12" pin="1"/>
+      <node ref="U5" pin="11"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="14" name="/HDMI_INPUT/ADV_CVDD">
+      <node ref="U5" pin="14"/>
+      <node ref="C15" pin="1"/>
+      <node ref="FB3" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="15" name="/HDMI_INPUT/ADV_DVDD">
+      <node ref="C16" pin="1"/>
+      <node ref="U5" pin="24"/>
+      <node ref="C19" pin="1"/>
+      <node ref="FB4" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="U5" pin="40"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U5" pin="52"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U5" pin="60"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="16" name="/HDMI_INPUT/ADV_DVDDIO">
+      <node ref="C11" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U5" pin="34"/>
+      <node ref="U5" pin="44"/>
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="17" name="Net-(U5-Pad49)">
+      <node ref="U5" pin="49"/>
+    </net>
+    <net code="18" name="/HDMI_INPUT/HDMI_RX2_P">
+      <node ref="U1" pin="10"/>
+      <node ref="U5" pin="13"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="19" name="/HDMI_INPUT/HDMI_RX2_N">
+      <node ref="J1" pin="3"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="20" name="/HDMI_INPUT/HDMI_RX1_P">
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="21" name="/HDMI_INPUT/HDMI_RX1_N">
+      <node ref="U5" pin="9"/>
+      <node ref="J1" pin="6"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="22" name="/HDMI_INPUT/HDMI_RX0_P">
+      <node ref="U5" pin="7"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="23" name="/HDMI_INPUT/HDMI_RX0_N">
+      <node ref="J1" pin="9"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="24" name="/HDMI_INPUT/R7">
+      <node ref="RP3" pin="8"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="25" name="/HDMI_INPUT/G3">
+      <node ref="RP2" pin="4"/>
+      <node ref="U5" pin="30"/>
+    </net>
+    <net code="26" name="/HDMI_INPUT/G4">
+      <node ref="RP2" pin="5"/>
+      <node ref="U5" pin="29"/>
+    </net>
+    <net code="27" name="/HDMI_INPUT/G5">
+      <node ref="RP2" pin="6"/>
+      <node ref="U5" pin="28"/>
+    </net>
+    <net code="28" name="/HDMI_INPUT/G6">
+      <node ref="U5" pin="27"/>
+      <node ref="RP2" pin="7"/>
+    </net>
+    <net code="29" name="/HDMI_INPUT/G7">
+      <node ref="U5" pin="26"/>
+      <node ref="RP2" pin="8"/>
+    </net>
+    <net code="30" name="/HDMI_INPUT/R0">
+      <node ref="U5" pin="22"/>
+      <node ref="RP3" pin="1"/>
+    </net>
+    <net code="31" name="/HDMI_INPUT/R1">
+      <node ref="RP3" pin="2"/>
+      <node ref="U5" pin="21"/>
+    </net>
+    <net code="32" name="/HDMI_INPUT/R2">
+      <node ref="RP3" pin="3"/>
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="33" name="/HDMI_INPUT/R3">
+      <node ref="RP3" pin="4"/>
+      <node ref="U5" pin="19"/>
+    </net>
+    <net code="34" name="/HDMI_INPUT/R4">
+      <node ref="RP3" pin="5"/>
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="35" name="/HDMI_INPUT/R5">
+      <node ref="RP3" pin="6"/>
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="36" name="/HDMI_INPUT/R6">
+      <node ref="U5" pin="16"/>
+      <node ref="RP3" pin="7"/>
+    </net>
+    <net code="37" name="/HDMI_INPUT/G2">
+      <node ref="U5" pin="31"/>
+      <node ref="RP2" pin="3"/>
+    </net>
+    <net code="38" name="/HDMI_INPUT/B3">
+      <node ref="U5" pin="39"/>
+      <node ref="RP1" pin="4"/>
+    </net>
+    <net code="39" name="/HDMI_INPUT/B5">
+      <node ref="RP1" pin="6"/>
+      <node ref="U5" pin="37"/>
+    </net>
+    <net code="40" name="/HDMI_INPUT/B6">
+      <node ref="RP1" pin="7"/>
+      <node ref="U5" pin="36"/>
+    </net>
+    <net code="41" name="/HDMI_INPUT/B7">
+      <node ref="RP1" pin="8"/>
+      <node ref="U5" pin="35"/>
+    </net>
+    <net code="42" name="/HDMI_INPUT/G0">
+      <node ref="RP2" pin="1"/>
+      <node ref="U5" pin="33"/>
+    </net>
+    <net code="43" name="/HDMI_INPUT/G1">
+      <node ref="RP2" pin="2"/>
+      <node ref="U5" pin="32"/>
+    </net>
+    <net code="44" name="Net-(J1-Pad14)">
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="45" name="/HDMI_INPUT/HDMI_CLK_N">
+      <node ref="U2" pin="6"/>
+      <node ref="U5" pin="3"/>
+      <node ref="J1" pin="12"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="46" name="/HDMI_INPUT/HDMI_CLK_P">
+      <node ref="J1" pin="10"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="47" name="/HDMI_INPUT/HDMI_SCL">
+      <node ref="J1" pin="15"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="48" name="/HDMI_INPUT/HDMI_SDA">
+      <node ref="J1" pin="16"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="49" name="/HDMI_INPUT/HDMI_PWR_5V">
+      <node ref="J1" pin="18"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="50" name="/HDMI_INPUT/HDMI_HPA">
+      <node ref="R10" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="51" name="/HDMI_INPUT/B4">
+      <node ref="U5" pin="38"/>
+      <node ref="RP1" pin="5"/>
+    </net>
+    <net code="52" name="Net-(U5-Pad48)">
+      <node ref="U5" pin="48"/>
+    </net>
+    <net code="53" name="/HDMI_INPUT/B1">
+      <node ref="U5" pin="42"/>
+      <node ref="RP1" pin="2"/>
+    </net>
+    <net code="54" name="Net-(U5-Pad50)">
+      <node ref="U5" pin="50"/>
+    </net>
+    <net code="55" name="/HDMI_INPUT/B2">
+      <node ref="RP1" pin="3"/>
+      <node ref="U5" pin="41"/>
+    </net>
+    <net code="56" name="Net-(U5-Pad51)">
+      <node ref="U5" pin="51"/>
+    </net>
+    <net code="57" name="/HDMI_INPUT/HDMI_CEC">
+      <node ref="U5" pin="61"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="58" name="/HDMI_INPUT/B0">
+      <node ref="RP1" pin="1"/>
+      <node ref="U5" pin="43"/>
+    </net>
+    <net code="59" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="60" name="ADV_1V8_EN">
+      <node ref="U4" pin="4"/>
+      <node ref="U6" pin="27"/>
+    </net>
+    <net code="61" name="MSP_I2C_SDA">
+      <node ref="U5" pin="54"/>
+      <node ref="U6" pin="10"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="62" name="MSP_I2C_SCL">
+      <node ref="U6" pin="11"/>
+      <node ref="U5" pin="53"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="63" name="/HDMI_INPUT/ADV_VDD1V8">
+      <node ref="FB3" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="FB4" pin="1"/>
+      <node ref="FB5" pin="1"/>
+    </net>
+    <net code="64" name="HSYNC_CS">
+      <node ref="U5" pin="46"/>
+      <node ref="J2" pin="27"/>
+    </net>
+    <net code="65" name="VSYNC_WE">
+      <node ref="U5" pin="47"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="66" name="DATEN_CMD">
+      <node ref="U5" pin="45"/>
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="67" name="PCLK">
+      <node ref="U5" pin="25"/>
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="68" name="HDMI_INT1">
+      <node ref="U6" pin="7"/>
+      <node ref="U5" pin="55"/>
+    </net>
+    <net code="69" name="/HDMI_INPUT/ADV_VDD3V3">
+      <node ref="R1" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="FB2" pin="1"/>
+    </net>
+    <net code="70" name="Net-(J2-Pad23)">
+      <node ref="J2" pin="23"/>
+    </net>
+    <net code="71" name="Net-(J2-Pad40)">
+      <node ref="J2" pin="40"/>
+    </net>
+    <net code="72" name="Net-(J2-Pad38)">
+      <node ref="J2" pin="38"/>
+    </net>
+    <net code="73" name="Net-(J2-Pad34)">
+      <node ref="J2" pin="34"/>
+    </net>
+    <net code="74" name="Net-(J2-Pad32)">
+      <node ref="J2" pin="32"/>
+    </net>
+    <net code="75" name="Net-(J2-Pad30)">
+      <node ref="J2" pin="30"/>
+    </net>
+    <net code="76" name="Net-(J2-Pad28)">
+      <node ref="J2" pin="28"/>
+    </net>
+    <net code="77" name="Net-(J2-Pad26)">
+      <node ref="J2" pin="26"/>
+    </net>
+    <net code="78" name="Net-(J2-Pad24)">
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="79" name="Net-(J2-Pad22)">
+      <node ref="J2" pin="22"/>
+    </net>
+    <net code="80" name="Net-(J2-Pad42)">
+      <node ref="J2" pin="42"/>
+    </net>
+    <net code="81" name="I2C0_SCL">
+      <node ref="J2" pin="43"/>
+    </net>
+    <net code="82" name="I2C0_SDA">
+      <node ref="J2" pin="39"/>
+    </net>
+    <net code="83" name="Net-(J2-Pad54)">
+      <node ref="J2" pin="54"/>
+    </net>
+    <net code="84" name="SYSPWR">
+      <node ref="U10" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U10" pin="5"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U11" pin="4"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U11" pin="2"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="J2" pin="55"/>
+      <node ref="J2" pin="60"/>
+      <node ref="J2" pin="56"/>
+      <node ref="J2" pin="58"/>
+      <node ref="J2" pin="59"/>
+      <node ref="J2" pin="57"/>
+    </net>
+    <net code="85" name="Net-(J2-Pad44)">
+      <node ref="J2" pin="44"/>
+    </net>
+    <net code="86" name="/CONNECTOR/RESETZ">
+      <node ref="U8" pin="2"/>
+      <node ref="J2" pin="53"/>
+    </net>
+    <net code="87" name="SPI0_CSZ0">
+      <node ref="J2" pin="51"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="88" name="SPI0_MOSI">
+      <node ref="P2" pin="2"/>
+      <node ref="J2" pin="49"/>
+    </net>
+    <net code="89" name="SPI0_MISO">
+      <node ref="P2" pin="3"/>
+      <node ref="J2" pin="47"/>
+    </net>
+    <net code="90" name="SPI0_CLK">
+      <node ref="J2" pin="46"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="91" name="/CONNECTOR/RESETZ_DRIVE">
+      <node ref="U8" pin="4"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="92" name="/CONNECTOR/HOST_IRQ_DRIVE">
+      <node ref="R24" pin="2"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="93" name="/CONNECTOR/PROJ_ON_DRIVE">
+      <node ref="R26" pin="2"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="94" name="/CONNECTOR/PROJ_ON_LED">
+      <node ref="R26" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="95" name="/CONNECTOR/RESETZ_LED">
+      <node ref="D2" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="96" name="/CONNECTOR/HOST_IRQ_LED">
+      <node ref="D1" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="97" name="PROJ_ON">
+      <node ref="U6" pin="12"/>
+      <node ref="J2" pin="36"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="98" name="HOST_IRQ">
+      <node ref="J2" pin="35"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="99" name="3DR">
+      <node ref="J2" pin="31"/>
+    </net>
+    <net code="100" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="R33" pin="2"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="101" name="Net-(R29-Pad1)">
+      <node ref="U10" pin="3"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="102" name="Net-(L2-Pad1)">
+      <node ref="L2" pin="1"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="103" name="Net-(D4-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="104" name="Net-(J3-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="105" name="Net-(L1-Pad1)">
+      <node ref="U10" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="106" name="/MSP430/DEBUG2_DRIVE">
+      <node ref="U13" pin="4"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="107" name="/MSP430/DEBUG2_LED">
+      <node ref="D6" pin="2"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="108" name="/MSP430/DEBUG2">
+      <node ref="U6" pin="16"/>
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="109" name="/MSP430/DEBUG1">
+      <node ref="U6" pin="15"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="110" name="Net-(U6-Pad32)">
+      <node ref="U6" pin="32"/>
+    </net>
+    <net code="111" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="112" name="Net-(U6-Pad26)">
+      <node ref="U6" pin="26"/>
+    </net>
+    <net code="113" name="Net-(U6-Pad25)">
+      <node ref="U6" pin="25"/>
+    </net>
+    <net code="114" name="Net-(U6-Pad24)">
+      <node ref="U6" pin="24"/>
+    </net>
+    <net code="115" name="Net-(U6-Pad23)">
+      <node ref="U6" pin="23"/>
+    </net>
+    <net code="116" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="117" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="118" name="Net-(U6-Pad40)">
+      <node ref="U6" pin="40"/>
+    </net>
+    <net code="119" name="Net-(U6-Pad28)">
+      <node ref="U6" pin="28"/>
+    </net>
+    <net code="120" name="Net-(U6-Pad31)">
+      <node ref="U6" pin="31"/>
+    </net>
+    <net code="121" name="Net-(U6-Pad30)">
+      <node ref="U6" pin="30"/>
+    </net>
+    <net code="122" name="Net-(U6-Pad29)">
+      <node ref="U6" pin="29"/>
+    </net>
+    <net code="123" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="124" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="125" name="/MSP430/TEST">
+      <node ref="P1" pin="8"/>
+      <node ref="U6" pin="37"/>
+    </net>
+    <net code="126" name="RESET">
+      <node ref="P1" pin="11"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="127" name="/MSP430/TDO">
+      <node ref="P1" pin="1"/>
+      <node ref="U6" pin="36"/>
+    </net>
+    <net code="128" name="Net-(P1-Pad14)">
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="129" name="Net-(P1-Pad13)">
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="130" name="Net-(P1-Pad12)">
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="131" name="/MSP430/TDI">
+      <node ref="P1" pin="3"/>
+      <node ref="U6" pin="35"/>
+    </net>
+    <net code="132" name="Net-(P1-Pad10)">
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="133" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="134" name="/MSP430/VCC_TARGET">
+      <node ref="P1" pin="4"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="135" name="/MSP430/VCC_TOOL">
+      <node ref="R15" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="136" name="/MSP430/TCK">
+      <node ref="U6" pin="33"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="137" name="/MSP430/TMS">
+      <node ref="U6" pin="34"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="138" name="/MSP430/MSP_VDD3V3">
+      <node ref="R17" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U6" pin="39"/>
+      <node ref="U6" pin="38"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="139" name="/MSP430/POWER_ON">
+      <node ref="C32" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="140" name="/MSP430/DEBUG1_LED">
+      <node ref="D5" pin="2"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="141" name="/MSP430/DEBUG1_DRIVE">
+      <node ref="U12" pin="4"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="142" name="/MSP430/PB_SELECT">
+      <node ref="R23" pin="2"/>
+      <node ref="P3" pin="5"/>
+      <node ref="U6" pin="22"/>
+    </net>
+    <net code="143" name="/MSP430/PB_RIGHT">
+      <node ref="R22" pin="2"/>
+      <node ref="U6" pin="21"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="144" name="/MSP430/PB_LEFT">
+      <node ref="R21" pin="2"/>
+      <node ref="U6" pin="20"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="145" name="/MSP430/PB_DOWN">
+      <node ref="R19" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="146" name="/MSP430/PB_UP">
+      <node ref="U6" pin="18"/>
+      <node ref="R17" pin="2"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="147" name="/CONNECTOR/PDATA16">
+      <node ref="J2" pin="14"/>
+      <node ref="RP3" pin="16"/>
+    </net>
+    <net code="148" name="/CONNECTOR/PDATA4">
+      <node ref="RP1" pin="12"/>
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="149" name="/CONNECTOR/PDATA5">
+      <node ref="RP1" pin="11"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="150" name="/CONNECTOR/PDATA6">
+      <node ref="J2" pin="15"/>
+      <node ref="RP1" pin="10"/>
+    </net>
+    <net code="151" name="/CONNECTOR/PDATA7">
+      <node ref="J2" pin="7"/>
+      <node ref="RP1" pin="9"/>
+    </net>
+    <net code="152" name="/CONNECTOR/PDATA8">
+      <node ref="J2" pin="4"/>
+      <node ref="RP2" pin="16"/>
+    </net>
+    <net code="153" name="/CONNECTOR/PDATA9">
+      <node ref="J2" pin="6"/>
+      <node ref="RP2" pin="15"/>
+    </net>
+    <net code="154" name="/CONNECTOR/PDATA10">
+      <node ref="J2" pin="8"/>
+      <node ref="RP2" pin="14"/>
+    </net>
+    <net code="155" name="/CONNECTOR/PDATA11">
+      <node ref="RP2" pin="13"/>
+      <node ref="J2" pin="21"/>
+    </net>
+    <net code="156" name="/CONNECTOR/PDATA12">
+      <node ref="RP2" pin="12"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="157" name="/CONNECTOR/PDATA13">
+      <node ref="J2" pin="25"/>
+      <node ref="RP2" pin="11"/>
+    </net>
+    <net code="158" name="/CONNECTOR/PDATA14">
+      <node ref="RP2" pin="10"/>
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="159" name="/CONNECTOR/PDATA15">
+      <node ref="J2" pin="29"/>
+      <node ref="RP2" pin="9"/>
+    </net>
+    <net code="160" name="/CONNECTOR/PDATA3">
+      <node ref="RP1" pin="13"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="161" name="/CONNECTOR/PDATA17">
+      <node ref="RP3" pin="15"/>
+      <node ref="J2" pin="33"/>
+    </net>
+    <net code="162" name="/CONNECTOR/PDATA18">
+      <node ref="J2" pin="16"/>
+      <node ref="RP3" pin="14"/>
+    </net>
+    <net code="163" name="/CONNECTOR/PDATA19">
+      <node ref="J2" pin="37"/>
+      <node ref="RP3" pin="13"/>
+    </net>
+    <net code="164" name="/CONNECTOR/PDATA20">
+      <node ref="J2" pin="18"/>
+      <node ref="RP3" pin="12"/>
+    </net>
+    <net code="165" name="/CONNECTOR/PDATA21">
+      <node ref="RP3" pin="11"/>
+      <node ref="J2" pin="41"/>
+    </net>
+    <net code="166" name="/CONNECTOR/PDATA22">
+      <node ref="J2" pin="20"/>
+      <node ref="RP3" pin="10"/>
+    </net>
+    <net code="167" name="/CONNECTOR/PDATA23">
+      <node ref="J2" pin="45"/>
+      <node ref="RP3" pin="9"/>
+    </net>
+    <net code="168" name="/CONNECTOR/PDATA0">
+      <node ref="J2" pin="9"/>
+      <node ref="RP1" pin="16"/>
+    </net>
+    <net code="169" name="/CONNECTOR/PDATA1">
+      <node ref="RP1" pin="15"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="170" name="/CONNECTOR/PDATA2">
+      <node ref="J2" pin="11"/>
+      <node ref="RP1" pin="14"/>
+    </net>
+  </nets>
+</export>
