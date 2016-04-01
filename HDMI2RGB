@@ -1,9 +1,9 @@
 Reference, Value, Footprint, Datasheet, Part #, Cost, Link, Supplier
-J1,HDMI_A,hdmi:FCI_10029449-11[13]RLF,
-U5,ADV7611,misc:LQFP-64_TH_10x10mm_Pitch0.5mm,DOCUMENTATION
-RP1,R_PACK8,rpack:RPACK-8_0616,
-RP2,R_PACK8,rpack:RPACK-8_0616,
-RP3,R_PACK8,rpack:RPACK-8_0616,
+J1,HDMI_A,hdmi:FCI_10029449-11[13]RLF,,10029449-111RLF,0.73,http://www.mouser.com/ProductDetail/FCI/10029449-111RLF/?qs=sGAEpiMZZMtAYTMy7wxAr9LCvXDZCuSkPfr%252b91JPIb8%3d,Mouser
+U5,ADV7611,misc:LQFP-64_TH_10x10mm_Pitch0.5mm,DOCUMENTATION,ADV7611BSWZ-P,14.21,http://www.mouser.com/ProductDetail/Analog-Devices/ADV7611BSWZ-P/?qs=sGAEpiMZZMv9Q1JI0Mo%2ftQPxLbY1tPB%252b,Mouser
+RP1,R_PACK8,rpack:RPACK-8_0616,,YC248-JR-0733RL,.31,http://www.mouser.com/ProductDetail/Yageo/YC248-JR-0733RL/?qs=%2fha2pyFadujrU2xFewWLBkAmO3yjJR9q5AB4Bh4PJQzwmQRmZIRzCA%3d%3d,Mouser
+RP2,R_PACK8,rpack:RPACK-8_0616,,YC248-JR-0733RL,.31,http://www.mouser.com/ProductDetail/Yageo/YC248-JR-0733RL/?qs=%2fha2pyFadujrU2xFewWLBkAmO3yjJR9q5AB4Bh4PJQzwmQRmZIRzCA%3d%3d,Mouser
+RP3,R_PACK8,rpack:RPACK-8_0616,,YC248-JR-0733RL,0.31,http://www.mouser.com/ProductDetail/Yageo/YC248-JR-0733RL/?qs=%2fha2pyFadujrU2xFewWLBkAmO3yjJR9q5AB4Bh4PJQzwmQRmZIRzCA%3d%3d,Mouser
 C1,0.1uF,Capacitors_SMD:C_0402,,0402YD104KAT2A,0.1,http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d,Mouser
 C3,0.1uF,Capacitors_SMD:C_0402,,0402YD104KAT2A,0.1,http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d,Mouser
 C5,0.1uF,Capacitors_SMD:C_0402,,0402YD104KAT2A,0.1,http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d,Mouser
@@ -36,7 +36,7 @@ C6,0.1uF,Capacitors_SMD:C_0402,,0402YD104KAT2A,0.1,http://www.mouser.com/Product
 C8,10nF,Capacitors_SMD:C_0402,,C0402C103K5RACTU,0.1,www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d,Mouser
 C10,10nF,Capacitors_SMD:C_0402,,C0402C103K5RACTU,0.1,www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d,Mouser
 C12,10nF,Capacitors_SMD:C_0402,,C0402C103K5RACTU,0.1,www.mouser.com/ProductDetail/Kemet/C0402C103K5RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQHHMgvpwHSjWWgw8Y4tWtxo%3d,Mouser
-U4,TPS2061,TO_SOT_Packages_SMD:SOT-23-5,,TPS2061CDBVT,,http://www.mouser.com/ProductDetail/Texas-Instruments/TPS2061CDBVT/?qs=sGAEpiMZZMuCmTIBzycWfA%2fkltuuzBRGGymV4N3jSG0%3d,
+U4,TPS2061,TO_SOT_Packages_SMD:SOT-23-5,,TPS2061CDBVT,1.48,http://www.mouser.com/ProductDetail/Texas-Instruments/TPS2061CDBVT/?qs=sGAEpiMZZMuCmTIBzycWfA%2fkltuuzBRGGymV4N3jSG0%3d,
 R6,0.0,Resistors_SMD:R_0402,,CRCW06030000Z0EA,0.1,http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d,Mouser
 R8,33,Resistors_SMD:R_0402,,CRCW040233R0FKED,0.1,http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW040233R0FKED/?qs=sGAEpiMZZMtlubZbdhIBIKSDlQLNiDlpH1ENKGvFlik%3d,Mouser
 R9,33,Resistors_SMD:R_0402,,CRCW040233R0FKED,0.1,http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW040233R0FKED/?qs=sGAEpiMZZMtlubZbdhIBIKSDlQLNiDlpH1ENKGvFlik%3d,Mouser
@@ -49,8 +49,8 @@ R3,4.7k,Resistors_SMD:R_0402,,ERJ-2GEJ472X,0.1,http://www.digikey.com/product-de
 R4,4.7k,Resistors_SMD:R_0402,,ERJ-2GEJ472X,0.1,http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025,Digikey
 R5,4.7k,Resistors_SMD:R_0402,,ERJ-2GEJ472X,0.1,http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025,Digikey
 R2,0.0,Resistors_SMD:R_0402,,CRCW06030000Z0EA,0.1,http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d,Mouser
-U2,TPD4S010DQAR,misc:10-USON,
-U1,TPD4S010DQAR,misc:10-USON,
+U2,TPD4S010DQAR,misc:10-USON,,TPD4S010DQAR,.66,http://www.mouser.com/ProductDetail/Texas-Instruments/TPD4S010DQAR/?qs=%2fha2pyFadujvqJsP1FaVJ5cYodIGUpQ4CFN5UL%2fXzLhaigQuhTlVpA%3d%3d,Mouser
+U1,TPD4S010DQAR,misc:10-USON,,TPD4S010DQAR,0.66,http://www.mouser.com/ProductDetail/Texas-Instruments/TPD4S010DQAR/?qs=%2fha2pyFadujvqJsP1FaVJ5cYodIGUpQ4CFN5UL%2fXzLhaigQuhTlVpA%3d%3d,Mouser
 J2,QTH-030-02-L-DA,QTH_030_02:QTH-030-02-L-D-A,DOCUMENTATION,QTH-030-L-D-A,9.88,http://www.digikey.com/product-detail/en/samtec-inc/QTH-030-02-L-D-A/SAM8186-ND/1106530,Digikey
 U7,SN74AUP1G06DCKR,TO_SOT_Packages_SMD:SC-70-5,,SN74AUP1G06DCKR,,,
 U9,SN74AUP1G06DCKR,TO_SOT_Packages_SMD:SC-70-5,,SN74AUP1G06DCKR,,,
@@ -87,7 +87,7 @@ P1,CONN_02X07,Connect:IDC_Header_Straight_14pins,
 R14,4.7k,Resistors_SMD:R_0402,,ERJ-2GEJ472X,0.1,http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025,Digikey
 R15,0.0,Resistors_SMD:R_0402,,CRCW06030000Z0EA,0.1,http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d,Mouser
 R16,0.0,Resistors_SMD:R_0402,,CRCW06030000Z0EA,0.1,http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d,Mouser
-U6,MSP430F2274TRHAR,Housings_DFN_QFN:QFN-40-1EP_6x6mm_Pitch0.5mm,
+U6,MSP430F2274TRHAR,Housings_DFN_QFN:QFN-40-1EP_6x6mm_Pitch0.5mm,,MSP430F2274TRHAT,6.48,http://www.mouser.com/ProductDetail/Texas-Instruments/MSP430F2274TRHAT/?qs=sGAEpiMZZMsp%252bcahb6g%252bW2X2XUDb8dT1L0nI2hcddmM%3d,Mouser
 R20,4.7k,Resistors_SMD:R_0402,,ERJ-2GEJ472X,0.1,http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025,Digikey
 R18,4.7k,Resistors_SMD:R_0402,,ERJ-2GEJ472X,0.1,http://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025,Digikey
 C29,0.1uF,Capacitors_SMD:C_0402,,0402YD104KAT2A,0.1,http://www.mouser.com/ProductDetail/AVX/0402YD104KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQOGP6fEKn1FCc5icYNsTrcI%3d,Mouser

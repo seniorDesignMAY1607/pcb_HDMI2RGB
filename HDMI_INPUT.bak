@@ -970,8 +970,9 @@ F 0 "U4" H 8050 7700 60  0000 C CNN
 F 1 "TPS2061" H 8300 7300 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 8250 7450 60  0001 C CNN
 F 3 "" H 8250 7450 60  0000 C CNN
-F 4 "http://www.mouser.com/ProductDetail/Texas-Instruments/TPS2061CDBVT/?qs=sGAEpiMZZMuCmTIBzycWfA%2fkltuuzBRGGymV4N3jSG0%3d" H 8350 8000 60  0001 C CNN "Link"
-F 5 "TPS2061CDBVT" H 8150 7800 60  0001 C CNN "Part #"
+F 4 "TPS2061CDBVT" H 8150 7800 60  0001 C CNN "Part #"
+F 5 "1.48" H 8250 7450 60  0001 C CNN "Cost"
+F 6 "http://www.mouser.com/ProductDetail/Texas-Instruments/TPS2061CDBVT/?qs=sGAEpiMZZMuCmTIBzycWfA%2fkltuuzBRGGymV4N3jSG0%3d" H 8350 8000 60  0001 C CNN "Link"
 	1    8250 7450
 	1    0    0    -1  
 $EndComp
@@ -1772,6 +1773,10 @@ F 0 "U2" H 5650 3750 60  0000 C CNN
 F 1 "TPD4S010DQAR" H 5800 2800 60  0000 C CNN
 F 2 "misc:10-USON" H 5700 3800 60  0001 C CNN
 F 3 "" H 5700 3800 60  0000 C CNN
+F 4 "TPD4S010DQAR" H 5800 3300 60  0001 C CNN "Part #"
+F 5 ".66" H 5800 3300 60  0001 C CNN "Cost"
+F 6 "http://www.mouser.com/ProductDetail/Texas-Instruments/TPD4S010DQAR/?qs=%2fha2pyFadujvqJsP1FaVJ5cYodIGUpQ4CFN5UL%2fXzLhaigQuhTlVpA%3d%3d" H 5800 3300 60  0001 C CNN "Link"
+F 7 "Mouser" H 5800 3300 60  0001 C CNN "Supplier"
 	1    5800 3300
 	1    0    0    -1  
 $EndComp
@@ -1783,6 +1788,10 @@ F 0 "U1" H 5650 2600 60  0000 C CNN
 F 1 "TPD4S010DQAR" H 5800 1650 60  0000 C CNN
 F 2 "misc:10-USON" H 5700 2650 60  0001 C CNN
 F 3 "" H 5700 2650 60  0000 C CNN
+F 4 "TPD4S010DQAR" H 5800 2150 60  0001 C CNN "Part #"
+F 5 "0.66" H 5800 2150 60  0001 C CNN "Cost"
+F 6 "http://www.mouser.com/ProductDetail/Texas-Instruments/TPD4S010DQAR/?qs=%2fha2pyFadujvqJsP1FaVJ5cYodIGUpQ4CFN5UL%2fXzLhaigQuhTlVpA%3d%3d" H 5800 2150 60  0001 C CNN "Link"
+F 7 "Mouser" H 5800 2150 60  0001 C CNN "Supplier"
 	1    5800 2150
 	1    0    0    -1  
 $EndComp

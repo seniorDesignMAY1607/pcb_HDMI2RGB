@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/birdman/Documents/Classes_S_16/senior_design/pcb_HDMI2RGB/HDMI2RGB.sch</source>
-    <date>Thu 31 Mar 2016 05:57:55 PM CDT</date>
+    <date>Thu 31 Mar 2016 06:22:12 PM CDT</date>
     <tool>Eeschema (2015-04-17 BZR 5609)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -74,6 +74,12 @@
     <comp ref="J1">
       <value>HDMI_A</value>
       <footprint>hdmi:FCI_10029449-11[13]RLF</footprint>
+      <fields>
+        <field name="Part #">10029449-111RLF</field>
+        <field name="Cost">0.73</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/FCI/10029449-111RLF/?qs=sGAEpiMZZMtAYTMy7wxAr9LCvXDZCuSkPfr%252b91JPIb8%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
       <libsource lib="hdmi" part="HDMI_A"/>
       <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
       <tstamp>56F8594F</tstamp>
@@ -82,6 +88,12 @@
       <value>ADV7611</value>
       <footprint>misc:LQFP-64_TH_10x10mm_Pitch0.5mm</footprint>
       <datasheet>DOCUMENTATION</datasheet>
+      <fields>
+        <field name="Part #">ADV7611BSWZ-P</field>
+        <field name="Cost">14.21</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Analog-Devices/ADV7611BSWZ-P/?qs=sGAEpiMZZMv9Q1JI0Mo%2ftQPxLbY1tPB%252b</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
       <libsource lib="ADV7611" part="ADV7611"/>
       <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
       <tstamp>56F85970</tstamp>
@@ -89,6 +101,12 @@
     <comp ref="RP1">
       <value>R_PACK8</value>
       <footprint>rpack:RPACK-8_0616</footprint>
+      <fields>
+        <field name="Part #">YC248-JR-0733RL</field>
+        <field name="Cost">.31</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Yageo/YC248-JR-0733RL/?qs=%2fha2pyFadujrU2xFewWLBkAmO3yjJR9q5AB4Bh4PJQzwmQRmZIRzCA%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
       <libsource lib="device" part="R_PACK8"/>
       <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
       <tstamp>56F85983</tstamp>
@@ -96,6 +114,12 @@
     <comp ref="RP2">
       <value>R_PACK8</value>
       <footprint>rpack:RPACK-8_0616</footprint>
+      <fields>
+        <field name="Part #">YC248-JR-0733RL</field>
+        <field name="Cost">.31</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Yageo/YC248-JR-0733RL/?qs=%2fha2pyFadujrU2xFewWLBkAmO3yjJR9q5AB4Bh4PJQzwmQRmZIRzCA%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
       <libsource lib="device" part="R_PACK8"/>
       <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
       <tstamp>56F8598A</tstamp>
@@ -103,6 +127,12 @@
     <comp ref="RP3">
       <value>R_PACK8</value>
       <footprint>rpack:RPACK-8_0616</footprint>
+      <fields>
+        <field name="Part #">YC248-JR-0733RL</field>
+        <field name="Cost">0.31</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Yageo/YC248-JR-0733RL/?qs=%2fha2pyFadujrU2xFewWLBkAmO3yjJR9q5AB4Bh4PJQzwmQRmZIRzCA%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
       <libsource lib="device" part="R_PACK8"/>
       <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
       <tstamp>56F85991</tstamp>
@@ -527,8 +557,9 @@
       <value>TPS2061</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
       <fields>
-        <field name="Link">http://www.mouser.com/ProductDetail/Texas-Instruments/TPS2061CDBVT/?qs=sGAEpiMZZMuCmTIBzycWfA%2fkltuuzBRGGymV4N3jSG0%3d</field>
         <field name="Part #">TPS2061CDBVT</field>
+        <field name="Cost">1.48</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Texas-Instruments/TPS2061CDBVT/?qs=sGAEpiMZZMuCmTIBzycWfA%2fkltuuzBRGGymV4N3jSG0%3d</field>
       </fields>
       <libsource lib="tps2061" part="TPS2061"/>
       <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
@@ -693,6 +724,12 @@
     <comp ref="U2">
       <value>TPD4S010DQAR</value>
       <footprint>misc:10-USON</footprint>
+      <fields>
+        <field name="Part #">TPD4S010DQAR</field>
+        <field name="Cost">.66</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Texas-Instruments/TPD4S010DQAR/?qs=%2fha2pyFadujvqJsP1FaVJ5cYodIGUpQ4CFN5UL%2fXzLhaigQuhTlVpA%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
       <libsource lib="tpd4S010" part="TPD4S010DQAR"/>
       <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
       <tstamp>56F921E3</tstamp>
@@ -700,6 +737,12 @@
     <comp ref="U1">
       <value>TPD4S010DQAR</value>
       <footprint>misc:10-USON</footprint>
+      <fields>
+        <field name="Part #">TPD4S010DQAR</field>
+        <field name="Cost">0.66</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Texas-Instruments/TPD4S010DQAR/?qs=%2fha2pyFadujvqJsP1FaVJ5cYodIGUpQ4CFN5UL%2fXzLhaigQuhTlVpA%3d%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
       <libsource lib="tpd4S010" part="TPD4S010DQAR"/>
       <sheetpath names="/HDMI_INPUT/" tstamps="/56F781D7/"/>
       <tstamp>56F92843</tstamp>
@@ -1152,6 +1195,12 @@
     <comp ref="U6">
       <value>MSP430F2274TRHAR</value>
       <footprint>Housings_DFN_QFN:QFN-40-1EP_6x6mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="Part #">MSP430F2274TRHAT</field>
+        <field name="Cost">6.48</field>
+        <field name="Link">http://www.mouser.com/ProductDetail/Texas-Instruments/MSP430F2274TRHAT/?qs=sGAEpiMZZMsp%252bcahb6g%252bW2X2XUDb8dT1L0nI2hcddmM%3d</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
       <libsource lib="msp430f2274" part="MSP430F2274TRHAR"/>
       <sheetpath names="/MSP430/" tstamps="/56F83E00/"/>
       <tstamp>56F86E4D</tstamp>
